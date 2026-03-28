@@ -1,0 +1,162 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7, #e0f2fe);
+  display: flex; align-items: center; justify-content: center; padding: 40px 20px;
+  position: relative; overflow: hidden;
+}
+.register-page::before {
+  content: ''; position: absolute; inset: 0;
+  background-image: radial-gradient(circle, #86efac 1px, transparent 1px);
+  background-size: 28px 28px; opacity: 0.3; pointer-events: none;
+}
+.reg-leaf { position: absolute; font-size: 24px; animation: floatLeaf 4s ease-in-out infinite; }
+
+.register-card {
+  background: white; border-radius: 24px; width: 100%; max-width: 640px;
+  box-shadow: 0 20px 60px rgba(34,197,94,0.15); overflow: hidden;
+  position: relative; z-index: 1;
+}
+
+/* Progress */
+.reg-progress {
+  display: flex; align-items: center; padding: 28px 40px 0;
+  gap: 0; border-bottom: 1px solid #f0fdf4; padding-bottom: 28px;
+}
+.reg-step-wrap { display: flex; flex-direction: column; align-items: center; position: relative; flex: 1; }
+.reg-step-dot {
+  width: 40px; height: 40px; border-radius: 50%; border: 2px solid #d1fae5;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Baloo 2', cursive; font-size: 16px; font-weight: 700; color: #7a907a;
+  background: white; transition: all 300ms ease; margin-bottom: 8px;
+}
+.reg-step-dot.active { background: #22c55e; border-color: #22c55e; color: white; }
+.reg-step-dot.done { background: #22c55e; border-color: #22c55e; color: white; animation: bounceIn 400ms ease; }
+.reg-step-label { font-size: 11px; color: #7a907a; font-weight: 600; text-align: center; white-space: nowrap; }
+.reg-step-line {
+  position: absolute; top: 20px; left: calc(50% + 24px); right: calc(-50% + 24px);
+  height: 2px; background: #d1fae5; z-index: 0;
+}
+.reg-step-line.done { background: #22c55e; }
+
+/* Body */
+.reg-body { padding: 32px 40px 40px; }
+.reg-heading { font-family: 'Baloo 2', cursive; font-size: 28px; font-weight: 700; color: #1a2e1a; margin-bottom: 6px; }
+.reg-sub { font-size: 14px; color: #7a907a; margin-bottom: 28px; }
+
+/* Role cards */
+.role-cards { display: flex; gap: 16px; margin-bottom: 28px; }
+.role-card {
+  flex: 1; border: 2.5px solid #d1fae5; border-radius: 16px; padding: 24px 20px;
+  cursor: pointer; transition: all 250ms ease; text-align: center;
+}
+.role-card:hover { border-color: #86efac; background: #f0fdf4; }
+.role-card.selected { border-color: #22c55e; background: #f0fdf4; transform: scale(1.02); }
+.role-card-icon { font-size: 40px; display: block; margin-bottom: 12px; }
+.role-card h3 { font-family: 'Baloo 2', cursive; font-size: 18px; color: #1a2e1a; margin-bottom: 8px; }
+.role-card p { font-size: 13px; color: #7a907a; margin-bottom: 12px; }
+.role-card ul { list-style: none; font-size: 12px; color: #22c55e; font-weight: 700; line-height: 2; text-align: left; }
+
+/* Fields */
+.reg-fields { display: flex; flex-direction: column; gap: 16px; margin-bottom: 28px; }
+.reg-row { display: flex; gap: 16px; }
+.reg-row .reg-field { flex: 1; }
+.reg-field label { display: block; font-size: 13px; font-weight: 700; color: #4a5e4a; margin-bottom: 6px; }
+.reg-input-wrap {
+  position: relative; display: flex; align-items: center;
+}
+.reg-input-wrap span:first-child { position: absolute; left: 14px; font-size: 16px; pointer-events: none; }
+.reg-input-wrap input {
+  width: 100%; height: 48px; border: 1.5px solid #d1fae5; border-radius: 12px;
+  padding: 0 44px; font-size: 14px; color: #1a2e1a; outline: none;
+  transition: all 200ms;
+}
+.reg-input-wrap input:focus { border-color: #22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,0.12); }
+.field-ok { position: absolute; right: 14px; color: #22c55e; font-weight: 700; font-size: 16px; }
+.field-err { position: absolute; right: 14px; color: #ef4444; font-weight: 700; font-size: 16px; }
+.reg-select {
+  width: 100%; height: 48px; border: 1.5px solid #d1fae5; border-radius: 12px;
+  padding: 0 14px; font-size: 14px; color: #1a2e1a; outline: none;
+  background: white; cursor: pointer;
+}
+.strength-meter { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.strength-bars { display: flex; gap: 4px; }
+.strength-bar { width: 40px; height: 4px; border-radius: 2px; background: #e2e8f0; transition: background 300ms; }
+.school-dropdown {
+  position: absolute; top: 100%; left: 0; right: 0; background: white;
+  border: 1.5px solid #d1fae5; border-radius: 12px; z-index: 100; margin-top: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+.school-opt { padding: 12px 16px; cursor: pointer; font-size: 13px; color: #1a2e1a; }
+.school-opt:hover { background: #f0fdf4; }
+
+/* Avatars */
+.avatar-section { margin-bottom: 24px; }
+.avatar-section h4 { font-family: 'Baloo 2', cursive; font-size: 16px; color: #1a2e1a; margin-bottom: 14px; }
+.avatar-grid { display: flex; gap: 12px; flex-wrap: wrap; }
+.avatar-opt {
+  width: 64px; height: 64px; border-radius: 50%; border: 2.5px solid #d1fae5;
+  display: flex; align-items: center; justify-content: center; font-size: 28px;
+  cursor: pointer; transition: all 250ms ease;
+}
+.avatar-opt:hover { border-color: #86efac; transform: scale(1.08); }
+.avatar-opt.selected { border-color: #22c55e; background: #f0fdf4; transform: scale(1.12); box-shadow: 0 0 0 3px rgba(34,197,94,0.2); }
+
+/* Interests */
+.interests-section { margin-bottom: 24px; }
+.interests-section h4 { font-family: 'Baloo 2', cursive; font-size: 16px; color: #1a2e1a; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.interest-count { font-size: 13px; color: #7a907a; font-family: 'Nunito', sans-serif; }
+.interest-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.interest-tag {
+  height: 36px; padding: 0 14px; border-radius: 999px;
+  border: 1.5px solid #d1fae5; background: white; color: #4a5e4a;
+  font-size: 13px; font-weight: 700; cursor: pointer;
+  transition: all 200ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.interest-tag:hover { border-color: #86efac; background: #f0fdf4; }
+.interest-tag.selected { background: #22c55e; border-color: #22c55e; color: white; transform: scale(1.05); }
+
+/* Textarea */
+.reg-textarea {
+  width: 100%; height: 80px; border: 1.5px solid #d1fae5; border-radius: 12px;
+  padding: 12px 16px; font-size: 14px; color: #1a2e1a; resize: none; outline: none;
+  font-family: 'Nunito', sans-serif; transition: border 200ms;
+}
+.reg-textarea:focus { border-color: #22c55e; }
+.char-count { font-size: 12px; color: #7a907a; float: right; margin-top: 4px; }
+
+/* Buttons */
+.reg-btn {
+  height: 50px; padding: 0 32px; border-radius: 12px; border: none;
+  background: #22c55e; color: white; font-family: 'Baloo 2', cursive;
+  font-size: 17px; font-weight: 700; cursor: pointer;
+  transition: all 200ms ease; display: flex; align-items: center; gap: 8px;
+}
+.reg-btn:hover:not(:disabled) { background: #16a34a; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(34,197,94,0.35); }
+.reg-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.reg-back { height: 50px; padding: 0 24px; border-radius: 12px; border: 1.5px solid #d1fae5; background: white; color: #4a5e4a; font-size: 15px; font-weight: 700; cursor: pointer; }
+.reg-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; }
+.reg-login { text-align: center; margin-top: 20px; font-size: 14px; color: #7a907a; }
+.reg-login span { color: #22c55e; cursor: pointer; font-weight: 700; }
+
+/* Celebration */
+.celebration-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9999;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.confetti {
+  position: absolute; width: 10px; height: 10px; border-radius: 2px;
+  animation: confettiBurst 1.5s ease forwards;
+  top: 50%;
+}
+.celebration-card {
+  background: white; border-radius: 24px; padding: 48px; text-align: center;
+  animation: bounceIn 600ms ease;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.celebration-card h2 { font-family: 'Baloo 2', cursive; font-size: 32px; color: #1a2e1a; margin: 16px 0 8px; }
+.celebration-card p { font-size: 16px; color: #4a5e4a; }
+
+@media (max-width: 600px) {
+  .role-cards { flex-direction: column; }
+  .reg-body { padding: 24px 20px; }
+}

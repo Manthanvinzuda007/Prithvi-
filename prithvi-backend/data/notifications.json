@@ -1,0 +1,92 @@
+[
+  {
+    "id": "07328aa2-9c8d-43b0-80d7-4c14b6181673",
+    "userId": "teacher-001",
+    "type": "submission",
+    "message": "Nupur  submitted \"Plant a Native Tree Sapling\" for review 📋",
+    "relatedId": "task-001",
+    "read": false,
+    "createdAt": "2026-03-27T13:20:21.518Z"
+  },
+  {
+    "id": "16e55959-f39b-4165-a807-c593fe412f97",
+    "userId": "student-001",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.345Z"
+  },
+  {
+    "id": "07d7d943-4f87-4514-a247-b8b15f71075f",
+    "userId": "student-002",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.346Z"
+  },
+  {
+    "id": "7f96f263-9ea5-4585-8f67-ebe5d9652499",
+    "userId": "student-003",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.347Z"
+  },
+  {
+    "id": "d69b2f8a-f9af-4bc1-9da0-325786a1c853",
+    "userId": "student-004",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.349Z"
+  },
+  {
+    "id": "2b630530-d57c-44c9-a5b8-590e9fe2e416",
+    "userId": "student-005",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.350Z"
+  },
+  {
+    "id": "b053fa68-ce49-4119-a8e1-d371bf915cea",
+    "userId": "student-006",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.351Z"
+  },
+  {
+    "id": "aec0da3a-1e1e-4b6f-bf39-77cedb88f74d",
+    "userId": "student-007",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.353Z"
+  },
+  {
+    "id": "7a3b1602-db7f-4712-8d59-e9cc215af513",
+    "userId": "student-008",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.354Z"
+  },
+  {
+    "id": "c4b2d9fe-1a2d-4586-81bd-235fe77edefc",
+    "userId": "e6986152-538d-452f-8731-282962ff7306",
+    "type": "new_task",
+    "message": "New task assigned: \"Tree Planting\" 🌱",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-03-27T13:35:33.355Z"
+  }
+]

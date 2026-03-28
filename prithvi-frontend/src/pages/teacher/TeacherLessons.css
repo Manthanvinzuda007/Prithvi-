@@ -1,0 +1,25 @@
+.lesson-builder { display: grid; grid-template-columns: 340px 1fr; gap: 20px; align-items: start; }
+.lb-config { position: sticky; top: 80px; }
+.lb-chapter-item { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 8px; cursor: pointer; border: 1px solid #e2e8f0; margin-bottom: 6px; transition: all 150ms; }
+.lb-chapter-item:hover { background: #f8fafc; }
+.lb-chapter-item.active { background: #f0fdf4; border-color: #86efac; }
+.lb-ch-input { flex: 1; border: none; outline: none; font-size: 14px; color: #0f172a; background: transparent; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; }
+.lb-editor { min-height: 500px; }
+.block-toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; padding: 12px 0; border-bottom: 1px solid #f1f5f9; }
+.block-add-btn { height: 32px; padding: 0 12px; border-radius: 6px; border: 1px solid #e2e8f0; background: white; font-size: 12px; font-weight: 600; cursor: pointer; color: #475569; transition: all 150ms; font-family: 'Plus Jakarta Sans', sans-serif; }
+.block-add-btn:hover { border-color: #22c55e; color: #15803d; background: #f0fdf4; }
+.block-list { display: flex; flex-direction: column; gap: 14px; }
+.block-item { border-radius: 10px; padding: 16px; border-left: 4px solid; }
+.block-item.block-text { border-color: #e2e8f0; background: #f8fafc; }
+.block-item.block-fact_box { border-color: #22c55e; background: #f0fdf4; }
+.block-item.block-warning_box { border-color: #f59e0b; background: #fef3c7; }
+.block-item.block-tip_box { border-color: #3b82f6; background: #eff6ff; }
+.block-item.block-quiz { border-color: #7c3aed; background: #fdf4ff; }
+.block-item-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.block-type-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; }
+.quiz-editor { }
+.quiz-opt-label { width: 28px; height: 28px; border-radius: 50%; background: #f1f5f9; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; cursor: pointer; flex-shrink: 0; color: #64748b; margin-top: 8px; }
+.quiz-opt-label.correct-label { background: #22c55e; color: white; }
+.draft-badge { background: #fef3c7 !important; color: #b45309 !important; }
+
+@media (max-width: 900px) { .lesson-builder { grid-template-columns: 1fr; } .lb-config { position: static; } }

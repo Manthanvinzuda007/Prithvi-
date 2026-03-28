@@ -1,0 +1,78 @@
+[
+  {
+    "id": "d16d09c6-dba9-496a-b87f-396c289c445c",
+    "userId": "student-001",
+    "userName": "Arjun Sharma",
+    "userAvatar": 2,
+    "text": "I will never use single-use plastic and carry my own bag everywhere.",
+    "category": "Waste Management",
+    "likes": 8,
+    "likedBy": [
+      "student-003",
+      "student-004",
+      "student-005"
+    ],
+    "createdAt": "2026-03-16T19:58:38.564Z"
+  },
+  {
+    "id": "13e02752-3c45-4330-9637-cdc32988beb8",
+    "userId": "student-002",
+    "userName": "Priya Singh",
+    "userAvatar": 1,
+    "text": "I pledge to plant 12 trees this year — one every month!",
+    "category": "Trees & Forests",
+    "likes": 15,
+    "likedBy": [
+      "student-001",
+      "student-002",
+      "student-003",
+      "student-004",
+      "student-005",
+      "student-006"
+    ],
+    "createdAt": "2026-03-16T19:58:38.564Z"
+  },
+  {
+    "id": "2ae23061-c4df-47b4-bfa5-ec415e173fda",
+    "userId": "student-004",
+    "userName": "Ananya Patel",
+    "userAvatar": 4,
+    "text": "I will switch off all lights and fans when leaving any room.",
+    "category": "Energy",
+    "likes": 6,
+    "likedBy": [
+      "student-002",
+      "student-003",
+      "student-004"
+    ],
+    "createdAt": "2026-03-16T19:58:38.564Z"
+  },
+  {
+    "id": "b4870720-469f-43b3-8771-e355adff32f5",
+    "userId": "student-006",
+    "userName": "Sneha Gupta",
+    "userAvatar": 6,
+    "text": "I pledge to compost all organic waste and grow vegetables at home!",
+    "category": "Sustainable Farming",
+    "likes": 11,
+    "likedBy": [
+      "student-001",
+      "student-002",
+      "student-003",
+      "student-004",
+      "student-005"
+    ],
+    "createdAt": "2026-03-16T19:58:38.564Z"
+  },
+  {
+    "id": "033425fe-8889-4875-81ca-b811b3dfdb0a",
+    "userId": "e6986152-538d-452f-8731-282962ff7306",
+    "userName": "Nupur ",
+    "userAvatar": 1,
+    "text": "The Manthan Lives In King",
+    "category": "Trees & Forests",
+    "likes": 0,
+    "likedBy": [],
+    "createdAt": "2026-03-27T13:23:13.976Z"
+  }
+]

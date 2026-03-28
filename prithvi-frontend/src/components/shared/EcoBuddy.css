@@ -1,0 +1,59 @@
+.eco-buddy { position: relative; display: inline-block; }
+.eco-buddy.animated .buddy-body { animation: buddyBob 2s ease-in-out infinite; }
+
+.buddy-hat {
+  position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+  width: 32px; height: 22px;
+  background: #15803d;
+  clip-path: polygon(20% 100%, 0% 0%, 100% 20%, 80% 100%);
+  z-index: 2;
+}
+
+.buddy-body {
+  width: 60px; height: 60px; border-radius: 50%;
+  background: linear-gradient(145deg, #4ade80, #22c55e);
+  margin: 10px auto 0;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(34,197,94,0.4);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 4px;
+}
+
+.buddy-eyes { display: flex; gap: 10px; margin-top: -4px; }
+.buddy-eye {
+  width: 12px; height: 12px; border-radius: 50%; background: white;
+  display: flex; align-items: center; justify-content: center;
+}
+.buddy-pupil { width: 6px; height: 6px; border-radius: 50%; background: #1a2e1a; }
+
+.buddy-mouth {
+  width: 18px; height: 8px; border-radius: 0 0 10px 10px;
+  border: 2.5px solid #15803d; border-top: none;
+  background: transparent;
+}
+.buddy-mouth.excited {
+  width: 22px; height: 10px;
+  background: #15803d;
+  border-radius: 0 0 12px 12px;
+  border: none;
+}
+.buddy-mouth.thinking {
+  width: 14px; height: 4px; border-radius: 2px;
+  background: #15803d; border: none;
+  transform: rotate(-10deg);
+}
+
+.buddy-cheeks { display: flex; gap: 20px; position: absolute; bottom: 14px; }
+.buddy-cheek { width: 10px; height: 6px; border-radius: 50%; background: rgba(251,113,133,0.5); }
+
+.buddy-arm {
+  position: absolute; top: 28px;
+  width: 14px; height: 8px; border-radius: 4px;
+  background: #22c55e;
+}
+.buddy-arm-left { left: -10px; transform: rotate(30deg); }
+.buddy-arm-right { right: -10px; transform: rotate(-30deg); }
+.animated .buddy-arm-right { animation: waveHand 2s ease-in-out infinite; transform-origin: left center; }
+
+.buddy-legs { display: flex; gap: 10px; justify-content: center; margin-top: 4px; }
+.buddy-leg { width: 12px; height: 16px; border-radius: 6px; background: #15803d; }

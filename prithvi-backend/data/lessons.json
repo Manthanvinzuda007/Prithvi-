@@ -1,0 +1,213 @@
+[
+  {
+    "id": "lesson-001",
+    "title": "The Secret Life of Punjab's Forests",
+    "category": "Forests & Trees",
+    "difficulty": "Beginner",
+    "description": "Discover the incredible biodiversity of Punjab's forests, their importance, and the threats they face.",
+    "xpReward": 120,
+    "durationMinutes": 20,
+    "createdBy": "teacher-001",
+    "status": "published",
+    "assignedTo": "all",
+    "thumbnailColor": "#22c55e",
+    "chapters": [
+      {
+        "id": "ch-001",
+        "title": "Punjab's Forest Cover",
+        "order": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Punjab, though known as the 'Land of Five Rivers', once had extensive forest cover that stretched across its hills and plains. Today, these forests face unprecedented pressure from agriculture, urbanization, and climate change."
+          },
+          {
+            "type": "fact_box",
+            "text": "Punjab currently has only 3.67% forest cover, compared to the national target of 33% set by the National Forest Policy."
+          },
+          {
+            "type": "quiz",
+            "id": "quiz-001",
+            "question": "What percentage of forest cover does Punjab currently have?",
+            "options": [
+              "1.2%",
+              "3.67%",
+              "8.5%",
+              "15%"
+            ],
+            "correctIndex": 1,
+            "explanation": "Punjab has 3.67% forest cover, well below the national target of 33%.",
+            "xpReward": 10
+          }
+        ]
+      },
+      {
+        "id": "ch-002",
+        "title": "Key Forest Types",
+        "order": 2,
+        "content": [
+          {
+            "type": "text",
+            "text": "Punjab's forests include the Shivalik Hill forests in the northeast, tropical thorn forests in the central plains, and riverine forests along the banks of the five rivers."
+          },
+          {
+            "type": "tip_box",
+            "text": "The Shivalik forests are home to over 200 species of birds and 50 species of mammals, including leopards and deer."
+          },
+          {
+            "type": "quiz",
+            "id": "quiz-002",
+            "question": "Which hill range contains Punjab's richest forests?",
+            "options": [
+              "Vindhya Range",
+              "Shivalik Hills",
+              "Aravalli Range",
+              "Western Ghats"
+            ],
+            "correctIndex": 1,
+            "explanation": "The Shivalik Hills in northeastern Punjab contain the most biodiverse forests in the state.",
+            "xpReward": 10
+          }
+        ]
+      },
+      {
+        "id": "ch-003",
+        "title": "Threats & Conservation",
+        "order": 3,
+        "content": [
+          {
+            "type": "text",
+            "text": "Punjab's forests face multiple threats: agricultural encroachment, illegal logging, urbanization, and climate change. However, conservation efforts are underway."
+          },
+          {
+            "type": "warning_box",
+            "text": "At the current rate of deforestation, Punjab could lose 20% of its remaining forest cover by 2040."
+          },
+          {
+            "type": "quiz",
+            "id": "quiz-003",
+            "question": "What is the biggest threat to Punjab's forests?",
+            "options": [
+              "Tourism",
+              "Agricultural encroachment",
+              "Mining",
+              "Flooding"
+            ],
+            "correctIndex": 1,
+            "explanation": "Agricultural expansion is the primary driver of deforestation in Punjab.",
+            "xpReward": 10
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "lesson-002",
+    "title": "Water Warriors: Conserving Punjab's Blue Gold",
+    "category": "Water Conservation",
+    "difficulty": "Intermediate",
+    "description": "Learn about Punjab's water crisis, the five rivers, and how you can be a water warrior.",
+    "xpReward": 150,
+    "durationMinutes": 25,
+    "createdBy": "teacher-001",
+    "status": "published",
+    "assignedTo": "all",
+    "thumbnailColor": "#0284c7",
+    "chapters": [
+      {
+        "id": "ch-004",
+        "title": "The Five Rivers Today",
+        "order": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Punjab means 'Land of Five Rivers' - Jhelum, Chenab, Ravi, Beas, and Sutlej. Today, only the Beas and Sutlej flow through Indian Punjab, and both face serious pollution threats."
+          },
+          {
+            "type": "fact_box",
+            "text": "The Sutlej river receives 450 million liters of untreated sewage and industrial effluent daily from Ludhiana alone."
+          },
+          {
+            "type": "quiz",
+            "id": "quiz-004",
+            "question": "How many rivers originally gave Punjab its name?",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "correctIndex": 2,
+            "explanation": "Punjab means 'Five Rivers' (Punj = Five, Aab = Water/Rivers).",
+            "xpReward": 10
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "377dba19-63d5-43b1-8cdd-14ddab53a65d",
+    "title": "Sex Education ",
+    "category": "Wildlife",
+    "difficulty": "Beginner",
+    "description": "About Sex In Wild Animals ",
+    "xpReward": 100,
+    "durationMinutes": 20,
+    "status": "published",
+    "assignedTo": "all",
+    "chapters": [
+      {
+        "id": "1774617140578",
+        "title": "Chapter 1",
+        "order": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "How Animal Sex "
+          },
+          {
+            "type": "fact_box",
+            "text": "They Sex Like A Humans They Have Also Like Our Stuff "
+          }
+        ]
+      },
+      {
+        "id": "1774618559841",
+        "title": "Chapter 2",
+        "order": 2,
+        "content": [
+          {
+            "type": "text",
+            "text": "How They Identify Girl Ya Boy "
+          },
+          {
+            "type": "fact_box",
+            "text": "They See Butifull Hole Ya Saliya "
+          },
+          {
+            "type": "quiz",
+            "id": "quiz-1774618692059",
+            "question": "Sex ",
+            "options": [
+              "BDMS",
+              "Hard Core",
+              "Normal ",
+              "Lesbian"
+            ],
+            "correctIndex": 2,
+            "explanation": "The Correct Ans Is Normal ",
+            "xpReward": 10
+          },
+          {
+            "type": "tip_box",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "createdBy": "386b47c9-e448-467e-94d5-583633add392",
+    "createdAt": "2026-03-27T13:39:15.813Z"
+  }
+]

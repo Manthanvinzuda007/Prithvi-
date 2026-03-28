@@ -1,0 +1,81 @@
+.lesson-player { display: flex; height: calc(100vh - 64px); overflow: hidden; margin: -28px; }
+
+.lp-sidebar {
+  width: 280px; background: #1a2e1a; display: flex; flex-direction: column;
+  padding: 24px 16px; overflow-y: auto; flex-shrink: 0;
+}
+.lp-back { background: rgba(255,255,255,0.08); border: none; color: rgba(255,255,255,0.7); border-radius: 8px; padding: 8px 14px; font-size: 13px; font-weight: 700; cursor: pointer; margin-bottom: 20px; text-align: left; }
+.lp-back:hover { background: rgba(255,255,255,0.12); }
+.lp-lesson-title { font-family: 'Baloo 2', cursive; font-size: 16px; font-weight: 700; color: white; margin-bottom: 12px; line-height: 1.4; }
+.lp-progress-label { font-size: 12px; color: #4ade80; font-weight: 700; margin-bottom: 6px; }
+.lp-progress-track { height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-bottom: 20px; }
+.lp-progress-fill { height: 100%; background: #22c55e; border-radius: 2px; transition: width 800ms ease; }
+.lp-chapters { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.lp-chapter-btn { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 10px; border: none; background: transparent; color: rgba(255,255,255,0.6); cursor: pointer; text-align: left; transition: all 150ms; }
+.lp-chapter-btn:hover { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.9); }
+.lp-chapter-btn.active { background: rgba(34,197,94,0.2); color: white; }
+.lp-chapter-btn.done { color: #4ade80; }
+.lp-ch-num { width: 24px; height: 24px; border-radius: 50%; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; }
+.lp-chapter-btn.done .lp-ch-num { background: #22c55e; color: white; }
+.lp-chapter-btn.active .lp-ch-num { background: #22c55e; }
+.lp-ch-title { font-size: 13px; font-weight: 600; }
+.lp-sidebar-meta { margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 12px; color: rgba(255,255,255,0.5); display: flex; flex-direction: column; gap: 6px; }
+
+/* Content */
+.lp-content { flex: 1; overflow-y: auto; background: #f8fff9; }
+.lp-content-inner { max-width: 760px; margin: 0 auto; padding: 40px 40px 100px; }
+.lp-chapter-header { margin-bottom: 28px; }
+.lp-chapter-title { font-family: 'Baloo 2', cursive; font-size: 26px; font-weight: 700; color: #1a2e1a; margin-top: 12px; }
+.lp-blocks { display: flex; flex-direction: column; gap: 20px; }
+
+/* Text */
+.lp-text { font-size: 16px; color: #1a2e1a; line-height: 1.8; }
+
+/* Boxes */
+.lp-fact-box { background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 0 12px 12px 0; padding: 16px 20px; font-size: 15px; color: #1a2e1a; line-height: 1.6; }
+.lp-warning-box { background: #fef3c7; border-left: 4px solid #f59e0b; border-radius: 0 12px 12px 0; padding: 16px 20px; font-size: 15px; color: #1a2e1a; line-height: 1.6; }
+.lp-tip-box { background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 0 12px 12px 0; padding: 16px 20px; font-size: 15px; color: #1a2e1a; line-height: 1.6; }
+.lp-box-icon { display: block; font-weight: 800; font-size: 13px; margin-bottom: 6px; }
+.lp-fact-box .lp-box-icon { color: #15803d; }
+.lp-warning-box .lp-box-icon { color: #b45309; }
+.lp-tip-box .lp-box-icon { color: #1d4ed8; }
+
+/* Quiz */
+.lp-quiz { background: white; border-radius: 16px; border: 1.5px solid #d1fae5; padding: 24px; box-shadow: 0 2px 12px rgba(34,197,94,0.08); }
+.lp-quiz-header { display: inline-block; background: #22c55e; color: white; border-radius: 999px; padding: 4px 14px; font-size: 12px; font-weight: 700; margin-bottom: 14px; }
+.lp-quiz-question { font-family: 'Baloo 2', cursive; font-size: 18px; font-weight: 700; color: #1a2e1a; margin-bottom: 16px; }
+.lp-quiz-options { display: flex; flex-direction: column; gap: 10px; }
+.lp-option { display: flex; align-items: center; gap: 12px; height: 52px; padding: 0 16px; border: 2px solid #d1fae5; border-radius: 10px; background: white; cursor: pointer; text-align: left; font-size: 15px; color: #1a2e1a; font-family: 'Nunito', sans-serif; font-weight: 600; transition: all 150ms; }
+.lp-option:hover:not(:disabled) { background: #f0fdf4; border-color: #86efac; }
+.lp-option:disabled { cursor: default; }
+.lp-option.selected { border-color: #3b82f6; background: #eff6ff; }
+.lp-option.correct { border-color: #22c55e; background: #f0fdf4; color: #15803d; animation: bounceIn 400ms ease; }
+.lp-option.wrong { border-color: #ef4444; background: #fef2f2; color: #ef4444; animation: shake 400ms ease; }
+.lp-option-letter { width: 28px; height: 28px; border-radius: 50%; background: #f0fdf4; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800; flex-shrink: 0; }
+.lp-option.correct .lp-option-letter { background: #22c55e; color: white; }
+.lp-option.wrong .lp-option-letter { background: #ef4444; color: white; }
+.lp-option-icon { margin-left: auto; font-weight: 800; font-size: 18px; }
+.lp-explanation { margin-top: 16px; background: #f8fafc; border-radius: 10px; padding: 14px 16px; font-size: 14px; color: #4a5e4a; line-height: 1.6; animation: slideInUp 300ms ease; }
+
+/* Nav bar */
+.lp-nav-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 40px; padding-top: 24px; border-top: 1px solid #d1fae5; }
+.lp-nav-progress { font-size: 14px; color: #7a907a; font-weight: 700; }
+.lp-nav-btn { height: 44px; padding: 0 24px; border-radius: 10px; border: none; font-size: 14px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 8px; font-family: 'Nunito', sans-serif; }
+.lp-nav-btn.primary { background: #22c55e; color: white; }
+.lp-nav-btn.primary:hover:not(:disabled) { background: #16a34a; }
+.lp-nav-btn.secondary { background: white; border: 1.5px solid #d1fae5; color: #4a5e4a; }
+.lp-nav-btn.secondary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Completion */
+.lp-completion-card { background: white; border-radius: 24px; padding: 48px; text-align: center; max-width: 480px; width: 100%; position: relative; overflow: hidden; animation: bounceIn 500ms ease; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+.lp-completion-trophy { font-size: 72px; margin-bottom: 16px; animation: bounceIn 600ms ease 200ms both; }
+.lp-completion-card h2 { font-family: 'Baloo 2', cursive; font-size: 32px; font-weight: 700; color: #1a2e1a; margin-bottom: 8px; }
+.lp-completion-card p { font-size: 16px; color: #4a5e4a; margin-bottom: 20px; }
+.lp-xp-earned { font-family: 'Baloo 2', cursive; font-size: 36px; font-weight: 800; color: #22c55e; margin-bottom: 28px; animation: countUp 600ms ease; }
+.lp-completion-btns { display: flex; gap: 12px; justify-content: center; }
+
+@media (max-width: 768px) {
+  .lesson-player { flex-direction: column; height: auto; margin: -16px; }
+  .lp-sidebar { width: 100%; height: auto; min-height: auto; }
+  .lp-content-inner { padding: 24px 16px 80px; }
+}

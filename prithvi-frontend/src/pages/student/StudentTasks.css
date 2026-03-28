@@ -1,0 +1,43 @@
+.tasks-page { animation: fadeIn 300ms ease; }
+.tasks-list { display: flex; flex-direction: column; gap: 16px; }
+.empty-state { text-align: center; padding: 60px; color: #7a907a; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+
+.task-card-full { display: flex; background: white; border-radius: 16px; border: 1.5px solid #d1fae5; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden; transition: all 200ms; animation: slideInUp 300ms ease both; }
+.task-card-full:hover { box-shadow: 0 6px 24px rgba(34,197,94,0.12); transform: translateY(-2px); }
+.task-full-accent { width: 6px; flex-shrink: 0; }
+.task-full-accent.easy { background: #22c55e; }
+.task-full-accent.medium { background: #f59e0b; }
+.task-full-accent.hard { background: #ef4444; }
+.task-full-body { flex: 1; padding: 20px 24px; }
+.task-full-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+.task-full-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.status-chip { border-radius: 999px; padding: 4px 12px; font-size: 12px; font-weight: 700; }
+.status-chip.status-available { background: #fef3c7; color: #b45309; }
+.status-chip.status-pending { background: #eff6ff; color: #1d4ed8; }
+.status-chip.status-approved { background: #dcfce7; color: #15803d; }
+.status-chip.status-rejected { background: #fef2f2; color: #ef4444; }
+.timer-chip { font-size: 12px; font-weight: 700; color: #7a907a; }
+.timer-chip.urgent { color: #ef4444; animation: streakFlicker 1.5s ease-in-out infinite; }
+.task-deadline-area { display: flex; align-items: center; gap: 8px; }
+.task-full-title { font-family: 'Baloo 2', cursive; font-size: 20px; font-weight: 700; color: #1a2e1a; margin-bottom: 8px; }
+.task-full-desc { font-size: 14px; color: #4a5e4a; line-height: 1.6; margin-bottom: 14px; }
+.task-expanded { margin-bottom: 16px; animation: slideInUp 250ms ease; }
+.task-instructions h4, .task-req h4 { font-family: 'Baloo 2', cursive; font-size: 14px; color: #1a2e1a; margin-bottom: 8px; }
+.task-instructions ol { padding-left: 20px; font-size: 14px; color: #4a5e4a; line-height: 2; }
+.task-req { margin-top: 14px; background: #f8fafc; border-radius: 10px; padding: 14px; }
+.task-req p { font-size: 14px; color: #4a5e4a; line-height: 1.6; }
+.task-eco { background: #f0fdf4; border-radius: 10px; padding: 12px 16px; font-size: 14px; color: #15803d; margin-top: 12px; }
+.task-teacher-comment { padding: 12px 16px; border-radius: 10px; font-size: 13px; margin-bottom: 12px; }
+.task-teacher-comment.approved { background: #f0fdf4; color: #15803d; border-left: 3px solid #22c55e; }
+.task-teacher-comment.rejected { background: #fef2f2; color: #ef4444; border-left: 3px solid #ef4444; }
+.task-full-footer { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #f0fdf4; padding-top: 14px; }
+
+/* Submit modal */
+.submit-field { margin-bottom: 20px; }
+.submit-field label { display: block; font-size: 13px; font-weight: 700; color: #4a5e4a; margin-bottom: 8px; }
+.submit-textarea { width: 100%; height: 120px; border: 1.5px solid #d1fae5; border-radius: 12px; padding: 14px 16px; font-size: 14px; color: #1a2e1a; resize: none; outline: none; font-family: 'Nunito', sans-serif; transition: border 200ms; }
+.submit-textarea:focus { border-color: #22c55e; }
+.star-rating { display: flex; gap: 8px; margin-top: 4px; }
+.star-btn { font-size: 28px; background: none; border: none; cursor: pointer; color: #d1fae5; transition: all 150ms; line-height: 1; }
+.star-btn.lit { color: #f59e0b; transform: scale(1.1); }
+.submit-requirements { background: #f0fdf4; border-radius: 10px; padding: 14px 16px; font-size: 13px; color: #15803d; line-height: 1.6; }

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "task-001",
+    "title": "Plant a Native Tree Sapling",
+    "description": "Plant at least one native tree sapling in your school, home, or community area.",
+    "instructions": [
+      "Choose a native species: Neem, Peepal, Sheesham, or Arjuna",
+      "Prepare the planting hole (1.5 feet deep, 1 foot wide)",
+      "Add compost to the soil mixture",
+      "Plant the sapling and water thoroughly",
+      "Mark with a label: your name, date, species",
+      "Photograph before, during, and after planting"
+    ],
+    "submissionRequirements": "Write 100-200 words describing your experience and include a photo link.",
+    "category": "tree_planting",
+    "difficulty": "Easy",
+    "ecoPointsReward": 75,
+    "deadline": "2026-03-23T19:58:38.561Z",
+    "createdBy": "teacher-001",
+    "assignedTo": "all",
+    "ecoBenefit": "Each tree absorbs ~22 kg of CO₂ per year.",
+    "submissions": [
+      {
+        "studentId": "student-001",
+        "description": "I planted a Neem sapling near our school gate with my friends.",
+        "proofUrl": "https://example.com/photo1",
+        "selfAssessmentStars": 5,
+        "submittedAt": "2026-03-14T19:58:38.562Z",
+        "status": "pending",
+        "teacherComment": "",
+        "pointsAwarded": 0,
+        "reviewedAt": null
+      },
+      {
+        "studentId": "e6986152-538d-452f-8731-282962ff7306",
+        "description": "Nupur ",
+        "proofUrl": "www.xxx.com",
+        "selfAssessmentStars": 4,
+        "submittedAt": "2026-03-27T13:20:21.516Z",
+        "status": "pending",
+        "teacherComment": "",
+        "pointsAwarded": 0,
+        "reviewedAt": null
+      }
+    ],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "task-002",
+    "title": "Home Waste Segregation Audit",
+    "description": "For one full week, segregate all household waste into Organic, Plastic, Paper, and E-Waste.",
+    "instructions": [
+      "Set up 4 labeled bins at home",
+      "Track daily waste amounts in a simple log",
+      "Photograph your segregated waste at end of week",
+      "Calculate which type of waste your family generates most",
+      "Write 3 suggestions to reduce your biggest waste category"
+    ],
+    "submissionRequirements": "Share your week-long log + one photo + your 3 reduction suggestions.",
+    "category": "waste_segregation",
+    "difficulty": "Medium",
+    "ecoPointsReward": 100,
+    "deadline": "2026-03-26T19:58:38.562Z",
+    "createdBy": "teacher-001",
+    "assignedTo": "all",
+    "ecoBenefit": "Proper waste segregation reduces landfill load by up to 60%.",
+    "submissions": [],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "task-003",
+    "title": "Home Energy Audit",
+    "description": "Audit your home's electricity consumption and identify 5 ways to reduce it.",
+    "instructions": [
+      "List all electrical appliances at home",
+      "Note the wattage of each (from labels)",
+      "Estimate daily usage hours",
+      "Calculate approximate monthly consumption",
+      "Identify the top 3 energy consumers",
+      "Propose 5 actionable reduction strategies"
+    ],
+    "submissionRequirements": "Submit your audit table + 5 strategies as a written report (200+ words).",
+    "category": "energy_audit",
+    "difficulty": "Hard",
+    "ecoPointsReward": 150,
+    "deadline": "2026-03-30T19:58:38.562Z",
+    "createdBy": "teacher-001",
+    "assignedTo": "all",
+    "ecoBenefit": "Energy efficiency can reduce a household's carbon footprint by 20-30%.",
+    "submissions": [],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "task-004",
+    "title": "Water Conservation Survey",
+    "description": "Survey water usage in your home for 3 days and find ways to save water.",
+    "instructions": [
+      "Track all water-using activities for 3 days",
+      "Note duration and frequency of each activity",
+      "Calculate estimated daily water usage per person",
+      "Identify top 3 water-wasting habits",
+      "Implement 2 changes and track results"
+    ],
+    "submissionRequirements": "Submit your 3-day survey log and the 2 changes you implemented.",
+    "category": "water_conservation",
+    "difficulty": "Easy",
+    "ecoPointsReward": 60,
+    "deadline": "2026-03-21T19:58:38.562Z",
+    "createdBy": "teacher-001",
+    "assignedTo": "all",
+    "ecoBenefit": "Simple household changes can save 50+ liters of water daily.",
+    "submissions": [],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "task-005",
+    "title": "Community Awareness Campaign",
+    "description": "Create and share an eco-awareness poster or video in your community.",
+    "instructions": [
+      "Choose one environmental issue: plastic pollution, water scarcity, or air pollution",
+      "Research 5 key facts about the issue",
+      "Create a poster or short video",
+      "Share it with at least 10 people (family, neighbors, social media)",
+      "Document reactions and pledges collected"
+    ],
+    "submissionRequirements": "Share a photo/link of your awareness material and describe how you spread it.",
+    "category": "awareness_campaign",
+    "difficulty": "Medium",
+    "ecoPointsReward": 120,
+    "deadline": "2026-03-28T19:58:38.562Z",
+    "createdBy": "teacher-001",
+    "assignedTo": "all",
+    "ecoBenefit": "Public awareness is the first step toward behavioral change.",
+    "submissions": [],
+    "createdAt": "2026-03-16T19:58:38.562Z"
+  },
+  {
+    "id": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "title": "Tree Planting",
+    "description": "Jad Ugado",
+    "instructions": [
+      "Seeds",
+      "Water "
+    ],
+    "submissionRequirements": "Photo Of One Jav Sexy Girl ",
+    "category": "tree_planting",
+    "difficulty": "Easy",
+    "ecoPointsReward": 50,
+    "deadline": "2026-03-28T08:04:00.000Z",
+    "createdBy": "386b47c9-e448-467e-94d5-583633add392",
+    "assignedTo": "all",
+    "ecoBenefit": "1KG",
+    "submissions": [],
+    "status": "active",
+    "createdAt": "2026-03-27T13:35:33.343Z"
+  }
+]

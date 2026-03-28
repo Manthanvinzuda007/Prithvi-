@@ -1,0 +1,23 @@
+.teacher-loading-page {
+  position: fixed; inset: 0; background: #f8fafc;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 500; font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.tl-center { display: flex; flex-direction: column; align-items: center; gap: 16px; width: 480px; }
+.tl-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.tl-logo span:first-child { font-size: 28px; }
+.tl-logo-text { font-family: 'DM Serif Display', serif; font-size: 24px; color: #0f172a; }
+.tl-subtitle { font-size: 12px; color: #94a3b8; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+
+.tl-skeleton-preview { width: 100%; display: flex; flex-direction: column; gap: 10px; opacity: 0.7; }
+.tl-sk-banner { height: 64px; border-radius: 10px; }
+.tl-sk-stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.tl-sk-stat { height: 72px; border-radius: 8px; }
+.tl-sk-grid { display: grid; grid-template-columns: 1fr 260px; gap: 8px; }
+.tl-sk-main { height: 120px; border-radius: 10px; }
+.tl-sk-side { height: 120px; border-radius: 10px; }
+
+.tl-bar-track { width: 320px; height: 4px; background: #e2e8f0; border-radius: 2px; overflow: hidden; margin-top: 8px; }
+.tl-bar-fill { height: 100%; background: #22c55e; border-radius: 2px; animation: tlBarAnim 1.5s ease-in-out infinite; }
+@keyframes tlBarAnim { 0%{width:0%;margin-left:0} 50%{width:60%;margin-left:0} 70%{width:60%;margin-left:40%} 100%{width:0%;margin-left:100%} }
+.tl-loading-text { font-size: 13px; color: #94a3b8; }

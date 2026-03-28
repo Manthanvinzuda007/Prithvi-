@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cddc7498-bd10-433f-9d11-526db0bd541e",
+    "userId": "e6986152-538d-452f-8731-282962ff7306",
+    "lessonId": "lesson-001",
+    "status": "in_progress",
+    "completedChapters": [],
+    "quizResults": {},
+    "xpEarned": 0,
+    "startedAt": "2026-03-27T13:24:49.648Z",
+    "completedAt": null,
+    "lastAccessedAt": "2026-03-27T13:24:49.648Z"
+  },
+  {
+    "id": "4010dee6-03ee-4eaa-8807-6aacc07340fc",
+    "userId": "student-001",
+    "lessonId": "377dba19-63d5-43b1-8cdd-14ddab53a65d",
+    "status": "in_progress",
+    "completedChapters": [
+      "1774617140578"
+    ],
+    "quizResults": {
+      "quiz-1774618692059": {
+        "selectedIndex": 0,
+        "correct": false,
+        "answeredAt": "2026-03-27T13:44:54.530Z"
+      }
+    },
+    "xpEarned": 0,
+    "startedAt": "2026-03-27T13:42:37.354Z",
+    "completedAt": null,
+    "lastAccessedAt": "2026-03-27T13:45:13.055Z"
+  }
+]
