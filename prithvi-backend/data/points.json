@@ -278,5 +278,21 @@
       "longestStreak": 1,
       "lastActiveDate": "Fri Mar 27 2026"
     }
+  },
+  {
+    "userId": "f7c816dd-e5bd-4b70-8007-fb8eaa779196",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Sun Mar 29 2026"
+    }
   }
 ]
