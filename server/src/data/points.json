@@ -1,0 +1,314 @@
+[
+  {
+    "userId": "student-001",
+    "totalPoints": 340,
+    "level": "Earth Guardian",
+    "earnedBadges": [
+      "tree-planter",
+      "eco-scholar"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 340,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 8,
+      "lessonsCompleted": 4,
+      "tasksByCategory": {
+        "tree_planting": 3,
+        "waste_segregation": 2
+      },
+      "quizPerfect": 2,
+      "currentStreak": 1,
+      "longestStreak": 12,
+      "lastActiveDate": "Tue Mar 31 2026"
+    }
+  },
+  {
+    "userId": "student-002",
+    "totalPoints": 570,
+    "level": "Earth Guardian",
+    "earnedBadges": [
+      "tree-planter",
+      "waste-warrior",
+      "climate-champion",
+      "eco-scholar",
+      "quiz-master",
+      "streak-7"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 520,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      },
+      {
+        "amount": 50,
+        "reason": "Test award",
+        "earnedAt": "2026-03-16T20:42:33.274Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 12,
+      "lessonsCompleted": 6,
+      "tasksByCategory": {
+        "tree_planting": 4,
+        "waste_segregation": 3
+      },
+      "quizPerfect": 4,
+      "currentStreak": 12,
+      "longestStreak": 25,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-003",
+    "totalPoints": 205,
+    "level": "Eco Sprout",
+    "earnedBadges": [
+      "eco-scholar"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 180,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      },
+      {
+        "amount": 25,
+        "reason": "test",
+        "earnedAt": "2026-03-17T22:22:58.445Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 4,
+      "lessonsCompleted": 2,
+      "tasksByCategory": {
+        "tree_planting": 1,
+        "waste_segregation": 1
+      },
+      "quizPerfect": 1,
+      "currentStreak": 3,
+      "longestStreak": 5,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-004",
+    "totalPoints": 610,
+    "level": "Nature Champion",
+    "earnedBadges": [
+      "tree-planter",
+      "waste-warrior",
+      "water-guardian",
+      "climate-champion"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 610,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 15,
+      "lessonsCompleted": 8,
+      "tasksByCategory": {
+        "tree_planting": 5,
+        "waste_segregation": 4
+      },
+      "quizPerfect": 5,
+      "currentStreak": 20,
+      "longestStreak": 30,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-005",
+    "totalPoints": 90,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [
+      {
+        "amount": 90,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 2,
+      "lessonsCompleted": 1,
+      "tasksByCategory": {
+        "tree_planting": 0,
+        "waste_segregation": 0
+      },
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 3,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-006",
+    "totalPoints": 430,
+    "level": "Earth Guardian",
+    "earnedBadges": [
+      "waste-warrior",
+      "eco-scholar"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 430,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 10,
+      "lessonsCompleted": 5,
+      "tasksByCategory": {
+        "tree_planting": 3,
+        "waste_segregation": 2
+      },
+      "quizPerfect": 3,
+      "currentStreak": 8,
+      "longestStreak": 14,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-007",
+    "totalPoints": 270,
+    "level": "Green Warrior",
+    "earnedBadges": [
+      "eco-scholar"
+    ],
+    "pointsHistory": [
+      {
+        "amount": 270,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 6,
+      "lessonsCompleted": 3,
+      "tasksByCategory": {
+        "tree_planting": 2,
+        "waste_segregation": 2
+      },
+      "quizPerfect": 2,
+      "currentStreak": 5,
+      "longestStreak": 8,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "student-008",
+    "totalPoints": 150,
+    "level": "Eco Sprout",
+    "earnedBadges": [],
+    "pointsHistory": [
+      {
+        "amount": 150,
+        "reason": "Initial demo points",
+        "earnedAt": "2026-03-16T19:58:38.563Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 3,
+      "lessonsCompleted": 1,
+      "tasksByCategory": {
+        "tree_planting": 1,
+        "waste_segregation": 1
+      },
+      "quizPerfect": 0,
+      "currentStreak": 2,
+      "longestStreak": 4,
+      "lastActiveDate": "Mon Mar 16 2026"
+    }
+  },
+  {
+    "userId": "e6986152-538d-452f-8731-282962ff7306",
+    "totalPoints": 110,
+    "level": "Eco Sprout",
+    "earnedBadges": [],
+    "pointsHistory": [
+      {
+        "amount": 60,
+        "reason": "Quiz Blitz: 60/100 points",
+        "earnedAt": "2026-03-27T13:21:34.666Z"
+      },
+      {
+        "amount": 25,
+        "reason": "Game played: quiz_blitz",
+        "earnedAt": "2026-03-27T13:21:34.675Z"
+      },
+      {
+        "amount": 25,
+        "reason": "Game played: waste_sorter",
+        "earnedAt": "2026-03-27T13:22:29.819Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Fri Mar 27 2026"
+    }
+  },
+  {
+    "userId": "386b47c9-e448-467e-94d5-583633add392",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Fri Mar 27 2026"
+    }
+  },
+  {
+    "userId": "f7c816dd-e5bd-4b70-8007-fb8eaa779196",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Sun Mar 29 2026"
+    }
+  },
+  {
+    "userId": "b7a9a68a-8ba0-4bf5-938e-e0f3fd1f61d3",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Tue Mar 31 2026"
+    }
+  }
+]
