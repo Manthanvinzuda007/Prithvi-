@@ -1,8 +1,8 @@
 [
   {
     "userId": "student-001",
-    "totalPoints": 340,
-    "level": "Earth Guardian",
+    "totalPoints": 415,
+    "level": "Green Warrior",
     "earnedBadges": [
       "tree-planter",
       "eco-scholar"
@@ -12,13 +12,18 @@
         "amount": 340,
         "reason": "Initial demo points",
         "earnedAt": "2026-03-16T19:58:38.563Z"
+      },
+      {
+        "amount": 75,
+        "reason": "Task approved: Plant a Native Tree Sapling",
+        "earnedAt": "2026-04-10T11:16:42.042Z"
       }
     ],
     "stats": {
-      "tasksCompleted": 8,
+      "tasksCompleted": 9,
       "lessonsCompleted": 4,
       "tasksByCategory": {
-        "tree_planting": 3,
+        "tree_planting": 4,
         "waste_segregation": 2
       },
       "quizPerfect": 2,
@@ -233,7 +238,7 @@
   },
   {
     "userId": "e6986152-538d-452f-8731-282962ff7306",
-    "totalPoints": 110,
+    "totalPoints": 185,
     "level": "Eco Sprout",
     "earnedBadges": [],
     "pointsHistory": [
@@ -251,12 +256,19 @@
         "amount": 25,
         "reason": "Game played: waste_sorter",
         "earnedAt": "2026-03-27T13:22:29.819Z"
+      },
+      {
+        "amount": 75,
+        "reason": "Task approved: Plant a Native Tree Sapling",
+        "earnedAt": "2026-04-10T11:16:43.869Z"
       }
     ],
     "stats": {
-      "tasksCompleted": 0,
+      "tasksCompleted": 1,
       "lessonsCompleted": 0,
-      "tasksByCategory": {},
+      "tasksByCategory": {
+        "tree_planting": 1
+      },
       "quizPerfect": 0,
       "currentStreak": 1,
       "longestStreak": 1,
@@ -309,6 +321,65 @@
       "currentStreak": 1,
       "longestStreak": 1,
       "lastActiveDate": "Tue Mar 31 2026"
+    }
+  },
+  {
+    "userId": "bff4643d-cad3-493b-a0c6-14d3113bdf6a",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Fri Apr 10 2026"
+    }
+  },
+  {
+    "userId": "514ba62c-9d4a-4dac-a1d2-b959f9817713",
+    "totalPoints": 0,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Fri Apr 10 2026"
+    }
+  },
+  {
+    "userId": "9f33f165-6357-4968-a8fa-107f607fac24",
+    "totalPoints": 35,
+    "level": "Earth Seedling",
+    "earnedBadges": [],
+    "pointsHistory": [
+      {
+        "amount": 10,
+        "reason": "Quiz correct: How many rivers originally gav",
+        "earnedAt": "2026-04-10T11:10:42.915Z"
+      },
+      {
+        "amount": 25,
+        "reason": "Game played: waste_sorter",
+        "earnedAt": "2026-04-10T11:14:28.165Z"
+      }
+    ],
+    "stats": {
+      "tasksCompleted": 0,
+      "lessonsCompleted": 0,
+      "tasksByCategory": {},
+      "quizPerfect": 0,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "lastActiveDate": "Fri Apr 10 2026"
     }
   }
 ]

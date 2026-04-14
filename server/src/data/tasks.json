@@ -26,10 +26,10 @@
         "proofUrl": "https://example.com/photo1",
         "selfAssessmentStars": 5,
         "submittedAt": "2026-03-14T19:58:38.562Z",
-        "status": "pending",
-        "teacherComment": "",
-        "pointsAwarded": 0,
-        "reviewedAt": null
+        "status": "approved",
+        "teacherComment": "Great work!",
+        "pointsAwarded": 75,
+        "reviewedAt": "2026-04-10T11:16:42.040Z"
       },
       {
         "studentId": "e6986152-538d-452f-8731-282962ff7306",
@@ -37,10 +37,21 @@
         "proofUrl": "www.xxx.com",
         "selfAssessmentStars": 4,
         "submittedAt": "2026-03-27T13:20:21.516Z",
-        "status": "pending",
-        "teacherComment": "",
+        "status": "approved",
+        "teacherComment": "Great work!",
+        "pointsAwarded": 75,
+        "reviewedAt": "2026-04-10T11:16:43.868Z"
+      },
+      {
+        "studentId": "9f33f165-6357-4968-a8fa-107f607fac24",
+        "description": "v",
+        "proofUrl": "bn",
+        "selfAssessmentStars": 5,
+        "submittedAt": "2026-04-10T11:11:19.216Z",
+        "status": "rejected",
+        "teacherComment": "vbn",
         "pointsAwarded": 0,
-        "reviewedAt": null
+        "reviewedAt": "2026-04-10T11:16:51.226Z"
       }
     ],
     "createdAt": "2026-03-16T19:58:38.562Z"
@@ -150,7 +161,19 @@
     "createdBy": "386b47c9-e448-467e-94d5-583633add392",
     "assignedTo": "all",
     "ecoBenefit": "1KG",
-    "submissions": [],
+    "submissions": [
+      {
+        "studentId": "9f33f165-6357-4968-a8fa-107f607fac24",
+        "description": "jkl;",
+        "proofUrl": "ghjmk,",
+        "selfAssessmentStars": 4,
+        "submittedAt": "2026-04-10T11:09:20.326Z",
+        "status": "pending",
+        "teacherComment": "",
+        "pointsAwarded": 0,
+        "reviewedAt": null
+      }
+    ],
     "status": "active",
     "createdAt": "2026-03-27T13:35:33.343Z"
   }

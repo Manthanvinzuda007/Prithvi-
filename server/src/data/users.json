@@ -36,8 +36,8 @@
       "Trees & Forests",
       "Water Conservation"
     ],
-    "ecoPoints": 340,
-    "level": "Earth Guardian",
+    "ecoPoints": 415,
+    "level": "Green Warrior",
     "streakDays": 1,
     "lastActiveDate": "Tue Mar 31 2026",
     "ecoPledge": "I pledge to protect our planet every day.",
@@ -222,7 +222,7 @@
       "🌿 Organic Living",
       "🌡️ Climate Action"
     ],
-    "ecoPoints": 110,
+    "ecoPoints": 185,
     "level": "Eco Sprout",
     "streakDays": 0,
     "lastActiveDate": null,
@@ -298,5 +298,74 @@
     "lastActiveDate": null,
     "ecoPledge": "",
     "createdAt": "2026-03-31T14:26:04.549Z"
+  },
+  {
+    "id": "bff4643d-cad3-493b-a0c6-14d3113bdf6a",
+    "name": "MN",
+    "email": "mn@school.edu",
+    "passwordHash": "$2a$10$/Po4w/OQ/YYv9vQb/ojDi.6GuCoWHO3pF7U1IAhRmruTKmC1ZUfZm",
+    "role": "student",
+    "school": "Govt. Model Senior Secondary School, Chandigarh",
+    "grade": "UG 2nd Year",
+    "section": "B",
+    "subject": null,
+    "avatarId": 2,
+    "interests": [
+      "🌳 Trees & Forests",
+      "🌾 Sustainable Farming",
+      "🦋 Wildlife"
+    ],
+    "ecoPoints": 0,
+    "level": "Earth Seedling",
+    "streakDays": 0,
+    "lastActiveDate": null,
+    "ecoPledge": "",
+    "createdAt": "2026-04-10T10:57:11.073Z"
+  },
+  {
+    "id": "514ba62c-9d4a-4dac-a1d2-b959f9817713",
+    "name": "Demo",
+    "email": "demo@vmtrades.com",
+    "passwordHash": "$2a$10$j4.iNkxXJltmU/yOianr3.77QKQ5P5/KEy13Odjth5zvvclZpyafe",
+    "role": "student",
+    "school": "MN",
+    "grade": "Class 9",
+    "section": null,
+    "subject": null,
+    "avatarId": 1,
+    "interests": [
+      "🌳 Trees & Forests",
+      "🦋 Wildlife",
+      "🌾 Sustainable Farming"
+    ],
+    "ecoPoints": 0,
+    "level": "Earth Seedling",
+    "streakDays": 0,
+    "lastActiveDate": null,
+    "ecoPledge": "",
+    "createdAt": "2026-04-10T11:01:21.823Z"
+  },
+  {
+    "id": "9f33f165-6357-4968-a8fa-107f607fac24",
+    "name": "Ishant Vinzuda ",
+    "email": "manthanvinzuda8@gmail.com",
+    "passwordHash": "$2a$10$SbS.Ycpi0oAXzzk3Gkk.VOWiS4LuaONu0Uof2l9UV/7Gh/dkchaAu",
+    "role": "student",
+    "school": "Premanad School",
+    "grade": "Class 10",
+    "section": "B",
+    "subject": null,
+    "avatarId": 5,
+    "interests": [
+      "🌳 Trees & Forests",
+      "♻️ Waste Management",
+      "🌡️ Climate Action"
+    ],
+    "ecoPoints": 35,
+    "level": "Earth Seedling",
+    "streakDays": 0,
+    "lastActiveDate": null,
+    "ecoPledge": "",
+    "createdAt": "2026-04-10T11:08:14.340Z"
   }
 ]

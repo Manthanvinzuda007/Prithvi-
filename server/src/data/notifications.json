@@ -88,5 +88,50 @@
     "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
     "read": false,
     "createdAt": "2026-03-27T13:35:33.355Z"
+  },
+  {
+    "id": "e5966e7e-f249-4722-8dc1-e8fad8ad6447",
+    "userId": "386b47c9-e448-467e-94d5-583633add392",
+    "type": "submission",
+    "message": "Ishant Vinzuda  submitted \"Tree Planting\" for review 📋",
+    "relatedId": "7d54d3a3-9f82-4ddc-9279-601e08f0d9ec",
+    "read": false,
+    "createdAt": "2026-04-10T11:09:20.332Z"
+  },
+  {
+    "id": "af933524-ce60-4f5c-bf8c-5ee022f77f38",
+    "userId": "teacher-001",
+    "type": "submission",
+    "message": "Ishant Vinzuda  submitted \"Plant a Native Tree Sapling\" for review 📋",
+    "relatedId": "task-001",
+    "read": false,
+    "createdAt": "2026-04-10T11:11:19.221Z"
+  },
+  {
+    "id": "e9f3e0b8-b827-41e9-85f3-8a6510301b4f",
+    "userId": "student-001",
+    "type": "task_approved",
+    "message": "Your task \"Plant a Native Tree Sapling\" was approved! +75 Eco-Points 🌱",
+    "relatedId": "task-001",
+    "read": false,
+    "createdAt": "2026-04-10T11:16:42.052Z"
+  },
+  {
+    "id": "b8797ac7-4fe2-4342-a997-df73ad63741c",
+    "userId": "e6986152-538d-452f-8731-282962ff7306",
+    "type": "task_approved",
+    "message": "Your task \"Plant a Native Tree Sapling\" was approved! +75 Eco-Points 🌱",
+    "relatedId": "task-001",
+    "read": false,
+    "createdAt": "2026-04-10T11:16:43.884Z"
+  },
+  {
+    "id": "4d9a5c1b-8d76-4c7b-981a-319307cc07e2",
+    "userId": "9f33f165-6357-4968-a8fa-107f607fac24",
+    "type": "task_rejected",
+    "message": "Your task \"Plant a Native Tree Sapling\" needs changes. Check teacher feedback. 📝",
+    "relatedId": "task-001",
+    "read": false,
+    "createdAt": "2026-04-10T11:16:51.227Z"
   }
 ]
